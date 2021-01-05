@@ -1,0 +1,110 @@
+header {
+    width: 100%;
+    border: red solid 1px;
+    display: grid;
+}
+.menu {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+}
+
+.listMenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .bannier {
+    height: 619px;
+    background-image: url("../img/Bannier-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.textBannier {
+    text-align: center;
+}
+
+.textBannier .foodText {
+    font-size: 2em;
+    color: white;
+}
+
+.textBannier p {
+    font-size: 4em;
+    color: white;
+}
+
+hr {
+    width: 50%;
+    color: tomato;
+    margin: 50px auto;
+
+}
+
+#pizza {
+    display: grid;
+}
+#burger {
+    display: grid;
+}
+
+#salade {
+    display: grid;
+}
+
+.ArticleContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    justify-items: center;
+}
+
+section h4 {
+    justify-self: center;
+    color: tomato;
+    font-size: 2em;
+    margin: 50px;
+}
+
+#pizza article {
+    border: tomato solid 2px;
+    width: 60%;
+    display: grid;
+    grid-template-rows: 1fr 100px;
+
+    @media screen and (max-width: 767px) {
+        grid-template-rows: 1fr;
+    }
+}
+
+#burger article {
+    border: tomato solid 2px;
+    width: 60%;
+    display: grid;
+    grid-template-rows: 1fr 100px;
+}
+
+#salade article {
+    border: tomato solid 2px;
+    width: 60%;
+    display: grid;
+    grid-template-rows: 1fr 100px;
+}
+
+article img {
+    justify-self: center;
+}
+
+article .pizzaText {
+    margin: 15px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+article button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    justify-self: end;
+}
