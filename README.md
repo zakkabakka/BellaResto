@@ -1,2 +1,2 @@
 # BellaResto
-projet de formation html / css
+projet de formation AFPA html / css
